@@ -1,51 +1,38 @@
-# zhaojin596 的个人首页
+# zhaojin596 的个人主页
 
-基于 VitePress 的个人首页，用于展示课程资料与项目，自动部署到 GitHub Pages。
+你好，欢迎来到我的个人主页！
 
-线上地址：<https://zhaojin596.github.io/>
+这是一份关于我的简介、课程学习记录和项目档案，站点托管在 GitHub Pages：
 
-## 项目结构
+🔗 <https://zhaojin596.github.io/>
 
-```text
-个人首页/
-├── docs/                     # 站点内容（Markdown）
-│   ├── index.md              # 首页：关于我 + 入口
-│   ├── courses.md            # 课程资料索引（指向语雀）
-│   ├── projects.md           # 项目展示
-│   ├── public/               # 图片等静态资源（如头像 avatar.png）
-│   └── .vitepress/           # 站点配置与主题
-├── .github/workflows/        # 自动部署
-└── package.json
-```
+## 关于我
 
-## 本地预览
+- 在读研究生，主要关注**强化学习**与智能控制方向
+- 喜欢把课堂上学到的想法落地成小项目：机器学习、机器人、嵌入式、大模型应用都有涉及
+- 正在系统整理课程资料与经典论文的阅读报告
 
-```bash
-npm install
-npm run dev
-```
+## 站内内容
 
-浏览器打开终端提示的地址即可预览，修改 Markdown 会热更新。
+- **首页**：关于我、最近更新
+- **课程资料**：按学期整理的课程学习资料
+- **项目**：课程项目与科研训练（SRTP）展示，报告与 PPT 可在线查看 / 下载
 
-## 修改内容
+## 项目概览
 
-- 个人介绍、头像：编辑 `docs/index.md`，把 `avatar.png` 换成你自己的头像
-- 课程资料：编辑 `docs/courses.md`，把语雀链接替换成你自己的
-- 项目：编辑 `docs/projects.md`，按模板添加新项目
-- 站点标题、GitHub 链接：编辑 `docs/.vitepress/config.mts`
+| 方向 | 代表项目 |
+| --- | --- |
+| 机器学习 / 信号处理 | 工业磨损预测 · 中文垃圾短信识别 |
+| 博弈 AI | 黑白棋 AI（MCTS） |
+| 嵌入式 / 物联网 | 智能宠物喂食器（ESP32-CAM + YOLO） |
+| 智能控制 | 四旋翼姿态智能控制 · PLC 温度控制系统 |
+| 机器人 / 调度优化 | 机械臂抓取堆叠仿真 · 智能仓储多机器人调度 |
+| 大模型应用 | 来浙找史（RAG 问答）· LLM 点菜 ChatBot |
+| 科研训练（SRTP） | 伺服电机参数辨识与整定（PINN） |
 
-## 部署到 GitHub Pages
+每个项目的详细介绍与报告见[项目页](https://zhaojin596.github.io/projects.html)。
 
-1. 在 GitHub 新建**公开**仓库，仓库名必须是 `zhaojin596.github.io`（这样首页才能用根路径）
-2. 推送本目录：`git push -u origin master`
-3. 进入仓库 **Settings → Pages**，将 Source 选为 **GitHub Actions**
-4. 每次 `git push` 到 `master` 分支，工作流会自动构建并发布
-5. 发布成功后访问 <https://zhaojin596.github.io/>
+## 联系我
 
-## 发布流程速查
-
-```bash
-git add .
-git commit -m "更新内容"
-git push
-```
+- GitHub：<https://github.com/zhaojin596>
+- 欢迎交流课程学习、论文阅读与研究合作
