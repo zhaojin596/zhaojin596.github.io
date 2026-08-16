@@ -1,6 +1,8 @@
-# 个人首页
+# zhaojin596 的个人首页
 
 基于 VitePress 的个人首页，用于展示课程资料与项目，自动部署到 GitHub Pages。
+
+线上地址：<https://zhaojin596.github.io/>
 
 ## 项目结构
 
@@ -27,17 +29,18 @@ npm run dev
 
 ## 修改内容
 
-- 个人介绍、头像：编辑 `docs/index.md`，头像放到 `docs/public/avatar.png`
+- 个人介绍、头像：编辑 `docs/index.md`，把 `avatar.png` 换成你自己的头像
 - 课程资料：编辑 `docs/courses.md`，把语雀链接替换成你自己的
 - 项目：编辑 `docs/projects.md`，按模板添加新项目
 - 站点标题、GitHub 链接：编辑 `docs/.vitepress/config.mts`
 
 ## 部署到 GitHub Pages
 
-1. 在 GitHub 新建仓库并推送本目录（仓库名随意，推荐 `个人首页` 或 `homepage`）
-2. 进入仓库 **Settings → Pages**，将 Source 选为 **GitHub Actions**
-3. 每次 `git push` 到 `master` 分支，工作流会自动构建并发布
-4. 发布成功后访问 `https://你的用户名.github.io/仓库名/`（如果仓库名是 `用户名.github.io`，则直接访问根路径）
+1. 在 GitHub 新建**公开**仓库，仓库名必须是 `zhaojin596.github.io`（这样首页才能用根路径）
+2. 推送本目录：`git push -u origin master`
+3. 进入仓库 **Settings → Pages**，将 Source 选为 **GitHub Actions**
+4. 每次 `git push` 到 `master` 分支，工作流会自动构建并发布
+5. 发布成功后访问 <https://zhaojin596.github.io/>
 
 ## 发布流程速查
 
