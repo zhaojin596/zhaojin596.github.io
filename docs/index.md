@@ -6,7 +6,7 @@ hero:
   text: "朝槿"
   tagline: "大四自动化学生 · 备战考研 · 记录课程学习与项目实践"
   image:
-    src: /avatar.png
+    src: /avatar.jpg
     alt: 朝槿
   actions:
     - theme: brand
