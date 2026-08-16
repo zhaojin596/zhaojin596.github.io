@@ -1,0 +1,10 @@
+/* 让首页英雄区文字更醒目 */
+.VPHero .name {
+  font-size: 44px;
+}
+
+@media (min-width: 960px) {
+  .VPHero .name {
+    font-size: 56px;
+  }
+}
