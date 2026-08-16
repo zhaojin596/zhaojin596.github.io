@@ -6,8 +6,8 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'zhaojin596 的个人首页',
-  description: '研究生 · 强化学习方向 · 课程资料与项目展示',
+  title: '朝槿的个人首页',
+  description: '大四自动化学生 · 课程学习与项目实践',
   // GitHub Pages 部署时通过工作流传入，普通仓库需要 /仓库名/ 前缀
   base: process.env.VITEPRESS_BASE || '/',
   lastUpdated: true,
@@ -16,7 +16,7 @@ export default defineConfig({
   ignoreDeadLinks: [/^\/reports\//],
 
   themeConfig: {
-    siteTitle: 'zhaojin596',
+    siteTitle: '朝槿',
     nav: [
       { text: '首页', link: '/' },
       { text: '课程资料', link: '/courses' },
@@ -29,7 +29,7 @@ export default defineConfig({
 
     footer: {
       message: '用 VitePress 构建，托管于 GitHub Pages',
-      copyright: '© 2026 zhaojin596'
+      copyright: '© 2026 朝槿'
     }
   }
 })
